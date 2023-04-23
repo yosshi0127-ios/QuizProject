@@ -10,6 +10,8 @@ target 'QuizProjectInUIKit' do
   pod 'Alamofire'
   pod 'PKHUD'
 
+  pod 'GRDB.swift'
+
   target 'QuizProjectInUIKitTests' do
     inherit! :search_paths
     # Pods for testing
