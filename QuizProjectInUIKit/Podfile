@@ -8,6 +8,7 @@ target 'QuizProjectInUIKit' do
   # Pods for QuizProjectInUIKit
 
   pod 'Alamofire'
+  pod 'PKHUD'
 
   target 'QuizProjectInUIKitTests' do
     inherit! :search_paths
@@ -17,5 +18,5 @@ target 'QuizProjectInUIKit' do
   target 'QuizProjectInUIKitUITests' do
     # Pods for testing
   end
-
+	
 end
