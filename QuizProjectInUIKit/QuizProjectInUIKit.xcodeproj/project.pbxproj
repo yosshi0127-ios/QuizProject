@@ -44,6 +44,17 @@
 		3667404629F5572B004E2206 /* 終了なのだ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3667403429F5572B004E2206 /* 終了なのだ.mp3 */; };
 		3667404729F5572B004E2206 /* 春のキッチンBGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3667403529F5572B004E2206 /* 春のキッチンBGM.mp3 */; };
 		3667404829F5572B004E2206 /* 正解なのだ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3667403629F5572B004E2206 /* 正解なのだ.mp3 */; };
+		3667404A29F557B0004E2206 /* GenreSelectScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3667404929F557B0004E2206 /* GenreSelectScreen.storyboard */; };
+		3667404C29F55804004E2206 /* GenreSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3667404B29F55804004E2206 /* GenreSelectViewController.swift */; };
+		3667404F29F55846004E2206 /* GenreBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3667404E29F55845004E2206 /* GenreBrain.swift */; };
+		3667405329F55935004E2206 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3667405229F55935004E2206 /* ServiceManager.swift */; };
+		3667405529F5594B004E2206 /* ServiceAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3667405429F5594B004E2206 /* ServiceAPIClient.swift */; };
+		3667405829F559A1004E2206 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3667405729F559A1004E2206 /* Service.swift */; };
+		3667405B29F559CE004E2206 /* QuizData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3667405A29F559CE004E2206 /* QuizData.swift */; };
+		3667405D29F55A12004E2206 /* ServiceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3667405C29F55A12004E2206 /* ServiceData.swift */; };
+		3667405F29F55A53004E2206 /* String-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3667405E29F55A53004E2206 /* String-Extension.swift */; };
+		3667406229F55AB6004E2206 /* GenreSelectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3667406129F55AB6004E2206 /* GenreSelectTableViewCell.swift */; };
+		3667406529F55AD7004E2206 /* GenreSelectTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3667406429F55AD7004E2206 /* GenreSelectTableViewCell.xib */; };
 		6C26665A999060EF7137742F /* Pods_QuizProjectInUIKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFB2E5BC7CAD7991C0135CC /* Pods_QuizProjectInUIKitTests.framework */; };
 		8BD6A1128A40FACE17DE5F6F /* Pods_QuizProjectInUIKit_QuizProjectInUIKitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B06C439D8BC3DFE18B65852 /* Pods_QuizProjectInUIKit_QuizProjectInUIKitUITests.framework */; };
 		D650245FA11F0924AD6CB2B9 /* Pods_QuizProjectInUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A710328F9AB861861C6D1E1 /* Pods_QuizProjectInUIKit.framework */; };
@@ -110,6 +121,17 @@
 		3667403429F5572B004E2206 /* 終了なのだ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "終了なのだ.mp3"; sourceTree = "<group>"; };
 		3667403529F5572B004E2206 /* 春のキッチンBGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "春のキッチンBGM.mp3"; sourceTree = "<group>"; };
 		3667403629F5572B004E2206 /* 正解なのだ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "正解なのだ.mp3"; sourceTree = "<group>"; };
+		3667404929F557B0004E2206 /* GenreSelectScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GenreSelectScreen.storyboard; sourceTree = "<group>"; };
+		3667404B29F55804004E2206 /* GenreSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenreSelectViewController.swift; sourceTree = "<group>"; };
+		3667404E29F55845004E2206 /* GenreBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenreBrain.swift; sourceTree = "<group>"; };
+		3667405229F55935004E2206 /* ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		3667405429F5594B004E2206 /* ServiceAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceAPIClient.swift; sourceTree = "<group>"; };
+		3667405729F559A1004E2206 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		3667405A29F559CE004E2206 /* QuizData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizData.swift; sourceTree = "<group>"; };
+		3667405C29F55A12004E2206 /* ServiceData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceData.swift; sourceTree = "<group>"; };
+		3667405E29F55A53004E2206 /* String-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String-Extension.swift"; sourceTree = "<group>"; };
+		3667406129F55AB6004E2206 /* GenreSelectTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenreSelectTableViewCell.swift; sourceTree = "<group>"; };
+		3667406429F55AD7004E2206 /* GenreSelectTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GenreSelectTableViewCell.xib; sourceTree = "<group>"; };
 		6F35002DC615616AF14EF08C /* Pods-QuizProjectInUIKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizProjectInUIKitTests.debug.xcconfig"; path = "Target Support Files/Pods-QuizProjectInUIKitTests/Pods-QuizProjectInUIKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		742B6253280C106E66DA2EFE /* Pods-QuizProjectInUIKit-QuizProjectInUIKitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizProjectInUIKit-QuizProjectInUIKitUITests.release.xcconfig"; path = "Target Support Files/Pods-QuizProjectInUIKit-QuizProjectInUIKitUITests/Pods-QuizProjectInUIKit-QuizProjectInUIKitUITests.release.xcconfig"; sourceTree = "<group>"; };
 		87D34960FBB71683BBF0ACEA /* Pods-QuizProjectInUIKit-QuizProjectInUIKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizProjectInUIKit-QuizProjectInUIKitUITests.debug.xcconfig"; path = "Target Support Files/Pods-QuizProjectInUIKit-QuizProjectInUIKitUITests/Pods-QuizProjectInUIKit-QuizProjectInUIKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -174,10 +196,14 @@
 			children = (
 				3631326B29F520BE0093BE38 /* AppDelegate.swift */,
 				3631326D29F520BE0093BE38 /* SceneDelegate.swift */,
+				3667405629F5598E004E2206 /* IInterface */,
+				3667405029F5590E004E2206 /* Network */,
 				36673FF329F52EB5004E2206 /* Extensions */,
 				36673FE329F52B9C004E2206 /* Utils */,
 				36673FEE29F52E44004E2206 /* Model */,
 				36673FE029F52A37004E2206 /* ViewControllers */,
+				3667406029F55A7F004E2206 /* Cells */,
+				3667406329F55ACA004E2206 /* Xibs */,
 				36673FDD29F529F1004E2206 /* Storyboards */,
 				36673FEA29F52DEA004E2206 /* Resource */,
 				3631327629F520BF0093BE38 /* LaunchScreen.storyboard */,
@@ -207,6 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				36673FE829F52CF7004E2206 /* TopScreeen.storyboard */,
+				3667404929F557B0004E2206 /* GenreSelectScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -215,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				36673FE629F52BE1004E2206 /* TopViewController.swift */,
+				3667404B29F55804004E2206 /* GenreSelectViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -248,9 +276,12 @@
 		36673FEE29F52E44004E2206 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3667405929F559C5004E2206 /* JSON */,
+				3667404D29F55836004E2206 /* Brain */,
 				36673FFA29F55512004E2206 /* Player.swift */,
 				36673FFC29F5552F004E2206 /* PlayerBrain.swift */,
 				36673FF129F52E79004E2206 /* AnimateImageModel.swift */,
+				3667405C29F55A12004E2206 /* ServiceData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -262,6 +293,7 @@
 				36673FF829F554C8004E2206 /* UIViewController-Extension.swift */,
 				36673FF429F52EE5004E2206 /* UIImage-Extension.swift */,
 				36673FF629F5548C004E2206 /* UserDefault-Extension.swift */,
+				3667405E29F55A53004E2206 /* String-Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -289,6 +321,63 @@
 				3667402729F5572A004E2206 /* 不正解なのだ.mp3 */,
 			);
 			path = Sound;
+			sourceTree = "<group>";
+		};
+		3667404D29F55836004E2206 /* Brain */ = {
+			isa = PBXGroup;
+			children = (
+				3667404E29F55845004E2206 /* GenreBrain.swift */,
+			);
+			path = Brain;
+			sourceTree = "<group>";
+		};
+		3667405029F5590E004E2206 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3667405229F55935004E2206 /* ServiceManager.swift */,
+				3667405129F55924004E2206 /* APIClients */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		3667405129F55924004E2206 /* APIClients */ = {
+			isa = PBXGroup;
+			children = (
+				3667405429F5594B004E2206 /* ServiceAPIClient.swift */,
+			);
+			path = APIClients;
+			sourceTree = "<group>";
+		};
+		3667405629F5598E004E2206 /* IInterface */ = {
+			isa = PBXGroup;
+			children = (
+				3667405729F559A1004E2206 /* Service.swift */,
+			);
+			path = IInterface;
+			sourceTree = "<group>";
+		};
+		3667405929F559C5004E2206 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				3667405A29F559CE004E2206 /* QuizData.swift */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		3667406029F55A7F004E2206 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3667406129F55AB6004E2206 /* GenreSelectTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3667406329F55ACA004E2206 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				3667406429F55AD7004E2206 /* GenreSelectTableViewCell.xib */,
+			);
+			path = Xibs;
 			sourceTree = "<group>";
 		};
 		4D262E4E3174C783B99962E0 /* Frameworks */ = {
@@ -430,6 +519,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3667404129F5572B004E2206 /* AnswerSelect.mp3 in Resources */,
+				3667406529F55AD7004E2206 /* GenreSelectTableViewCell.xib in Resources */,
 				3667404729F5572B004E2206 /* 春のキッチンBGM.mp3 in Resources */,
 				3667403829F5572B004E2206 /* えええ、、勉強するのだ.mp3 in Resources */,
 				3667404329F5572B004E2206 /* 残念BGM.mp3 in Resources */,
@@ -451,6 +541,7 @@
 				3667403E29F5572B004E2206 /* まずまずなのだ、次は満点目指すのだ.mp3 in Resources */,
 				3667403A29F5572B004E2206 /* ButtonTap1.mp3 in Resources */,
 				3631327529F520BF0093BE38 /* Assets.xcassets in Resources */,
+				3667404A29F557B0004E2206 /* GenreSelectScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,15 +671,24 @@
 			files = (
 				36673FE529F52BAB004E2206 /* Constants.swift in Sources */,
 				3667402429F5557E004E2206 /* UIAlertController-Extension.swift in Sources */,
+				3667404C29F55804004E2206 /* GenreSelectViewController.swift in Sources */,
+				3667405529F5594B004E2206 /* ServiceAPIClient.swift in Sources */,
 				36673FF529F52EE5004E2206 /* UIImage-Extension.swift in Sources */,
 				3631326C29F520BE0093BE38 /* AppDelegate.swift in Sources */,
+				3667405329F55935004E2206 /* ServiceManager.swift in Sources */,
+				3667404F29F55846004E2206 /* GenreBrain.swift in Sources */,
 				36673FF729F5548C004E2206 /* UserDefault-Extension.swift in Sources */,
+				3667405829F559A1004E2206 /* Service.swift in Sources */,
 				36673FF929F554C8004E2206 /* UIViewController-Extension.swift in Sources */,
+				3667405F29F55A53004E2206 /* String-Extension.swift in Sources */,
 				3631326E29F520BE0093BE38 /* SceneDelegate.swift in Sources */,
+				3667406229F55AB6004E2206 /* GenreSelectTableViewCell.swift in Sources */,
 				36673FE729F52BE1004E2206 /* TopViewController.swift in Sources */,
 				36673FFB29F55512004E2206 /* Player.swift in Sources */,
 				36673FF229F52E79004E2206 /* AnimateImageModel.swift in Sources */,
+				3667405B29F559CE004E2206 /* QuizData.swift in Sources */,
 				36673FFD29F5552F004E2206 /* PlayerBrain.swift in Sources */,
+				3667405D29F55A12004E2206 /* ServiceData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

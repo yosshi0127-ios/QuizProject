@@ -47,13 +47,13 @@ class TopViewController : UIViewController {
     
     @IBAction func quizChallengePressed(_ sender: UIButton) {
         
-//        let storyboard = UIStoryboard(name: Con.GenreSelectVC.name, bundle: nil)
-//        let genreSelectViewController = storyboard.instantiateViewController(withIdentifier: Con.GenreSelectVC.identifier) as! GenreSelectViewController
+        let storyboard = UIStoryboard(name: Con.GenreSelectVC.name, bundle: nil)
+        let genreSelectViewController = storyboard.instantiateViewController(withIdentifier: Con.GenreSelectVC.identifier) as! GenreSelectViewController
 
         // SEを流す
         PlayerBrain.players[.ButtonTap1]?.playSound()
 
-//        navigationController?.pushViewController(genreSelectViewController, animated: true)
+        navigationController?.pushViewController(genreSelectViewController, animated: true)
     }
     
     @IBAction func challengeHistoryPressed(_ sender: UIButton) {
