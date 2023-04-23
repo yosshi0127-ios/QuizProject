@@ -16,6 +16,7 @@
 		3631328329F520BF0093BE38 /* QuizProjectInUIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3631328229F520BF0093BE38 /* QuizProjectInUIKitTests.swift */; };
 		3631328D29F520BF0093BE38 /* QuizProjectInUIKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3631328C29F520BF0093BE38 /* QuizProjectInUIKitUITests.swift */; };
 		3631328F29F520BF0093BE38 /* QuizProjectInUIKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3631328E29F520BF0093BE38 /* QuizProjectInUIKitUITestsLaunchTests.swift */; };
+		36673FDC29F5279A004E2206 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 36673FDB29F5279A004E2206 /* RealmSwift */; };
 		6C26665A999060EF7137742F /* Pods_QuizProjectInUIKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFB2E5BC7CAD7991C0135CC /* Pods_QuizProjectInUIKitTests.framework */; };
 		8BD6A1128A40FACE17DE5F6F /* Pods_QuizProjectInUIKit_QuizProjectInUIKitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B06C439D8BC3DFE18B65852 /* Pods_QuizProjectInUIKit_QuizProjectInUIKitUITests.framework */; };
 		D650245FA11F0924AD6CB2B9 /* Pods_QuizProjectInUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A710328F9AB861861C6D1E1 /* Pods_QuizProjectInUIKit.framework */; };
@@ -68,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36673FDC29F5279A004E2206 /* RealmSwift in Frameworks */,
 				D650245FA11F0924AD6CB2B9 /* Pods_QuizProjectInUIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,7 +166,6 @@
 				6F35002DC615616AF14EF08C /* Pods-QuizProjectInUIKitTests.debug.xcconfig */,
 				E3665849C5486233355729F8 /* Pods-QuizProjectInUIKitTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -186,6 +187,9 @@
 			dependencies = (
 			);
 			name = QuizProjectInUIKit;
+			packageProductDependencies = (
+				36673FDB29F5279A004E2206 /* RealmSwift */,
+			);
 			productName = QuizProjectInUIKit;
 			productReference = 3631326829F520BE0093BE38 /* QuizProjectInUIKit.app */;
 			productType = "com.apple.product-type.application";
@@ -261,6 +265,9 @@
 				Base,
 			);
 			mainGroup = 3631325F29F520BE0093BE38;
+			packageReferences = (
+				36673FDA29F5279A004E2206 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 3631326929F520BE0093BE38 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -757,6 +764,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		36673FDA29F5279A004E2206 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		36673FDB29F5279A004E2206 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 36673FDA29F5279A004E2206 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3631326029F520BE0093BE38 /* Project object */;
 }
