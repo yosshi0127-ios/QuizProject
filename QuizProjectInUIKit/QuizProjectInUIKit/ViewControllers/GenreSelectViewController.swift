@@ -72,15 +72,15 @@ class GenreSelectViewController: UIViewController {
     }
         
     func moveToTheNextScreen(genreType: GenreBrain.GenreType, _ quizData: [QuizData]) {
-//        let storyboard = UIStoryboard(name: Con.ProblemChallengeVC.name, bundle: nil)
-//        let problemChallengeVC = storyboard.instantiateViewController(withIdentifier: Con.ProblemChallengeVC.identifier) as! ProblemChallengeViewController
-//        problemChallengeVC.modalPresentationStyle = .fullScreen
-//        problemChallengeVC.modalTransitionStyle = .crossDissolve
+        let storyboard = UIStoryboard(name: Con.ProblemChallengeVC.name, bundle: nil)
+        let problemChallengeVC = storyboard.instantiateViewController(withIdentifier: Con.ProblemChallengeVC.identifier) as! ProblemChallengeViewController
+        problemChallengeVC.modalPresentationStyle = .fullScreen
+        problemChallengeVC.modalTransitionStyle = .crossDissolve
         
         // 問題挑戦画面のクイズにセット
-//        problemChallengeVC.quizBrain.setQuiz(genreType: genreType, quiz: quizData)
+        problemChallengeVC.quizBrain.setQuiz(genreType: genreType, quiz: quizData)
         
-//        self.present(problemChallengeVC, animated: true)
+        self.present(problemChallengeVC, animated: true)
     }
 }
 
