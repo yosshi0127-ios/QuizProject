@@ -5,14 +5,25 @@ ITの問題を答えながらITについて学べることができるiOSアプ�
 
 # 仕様技術
 
-- Xcode Version: 14.1
+- Xcode Ver: 14.1
+- Swift Ver: 5.7.1 
+- ライブラリ管理 CocoaPods, SPM(Realm)
+
+- DB
+  - Realm Ver: 10.38.0
+  - GRDB  Ver: 6.10.2
+
+- API通信
+  - Alamofire Ver: 5.6.4
+
+- その他
+  - PKHUD Ver: 5.3.0
  
 # 実装
 
 - 2パターンの作り方で実装
     - パターン1： 非同期処理はGCDで、UIはUIKitで実装
     - パターン2： 非同期処理はSwift Concurrencyで、UIはSwiftUIで実装
-
 
 # Demo
 TODO: Gif画像で貼り付ける
