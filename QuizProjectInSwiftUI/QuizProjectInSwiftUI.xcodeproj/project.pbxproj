@@ -48,6 +48,7 @@
 		364ADDB829F89A32007DD06E /* QuizProjectInSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizProjectInSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		364ADDBC29F89A32007DD06E /* QuizProjectInSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizProjectInSwiftUIUITests.swift; sourceTree = "<group>"; };
 		364ADDBE29F89A32007DD06E /* QuizProjectInSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizProjectInSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		364ADDD129F89D33007DD06E /* nicomoji-plus_v2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nicomoji-plus_v2.ttf"; sourceTree = "<group>"; };
 		3D359F8758A709ADE35D5C7D /* Pods-QuizProjectInSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizProjectInSwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-QuizProjectInSwiftUITests/Pods-QuizProjectInSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3F24B1C897E7EB0986DA0673 /* Pods-QuizProjectInSwiftUI-QuizProjectInSwiftUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizProjectInSwiftUI-QuizProjectInSwiftUIUITests.debug.xcconfig"; path = "Target Support Files/Pods-QuizProjectInSwiftUI-QuizProjectInSwiftUIUITests/Pods-QuizProjectInSwiftUI-QuizProjectInSwiftUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		42E9D32B404F9ADD2963EFCA /* Pods_QuizProjectInSwiftUI_QuizProjectInSwiftUIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuizProjectInSwiftUI_QuizProjectInSwiftUIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +124,7 @@
 		364ADDA029F89A30007DD06E /* QuizProjectInSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				364ADDCE29F89D22007DD06E /* Fonts */,
 				364ADDA129F89A30007DD06E /* QuizProjectInSwiftUIApp.swift */,
 				364ADDA329F89A30007DD06E /* ContentView.swift */,
 				364ADDA529F89A31007DD06E /* Assets.xcassets */,
@@ -154,6 +156,14 @@
 				364ADDBE29F89A32007DD06E /* QuizProjectInSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = QuizProjectInSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		364ADDCE29F89D22007DD06E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				364ADDD129F89D33007DD06E /* nicomoji-plus_v2.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		67C713870D74A70B3D8817A3 /* Pods */ = {
