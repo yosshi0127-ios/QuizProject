@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_QuizProjectInSwiftUI_QuizProjectInSwiftUIUITests : NSObject
+@end
+@implementation PodsDummy_Pods_QuizProjectInSwiftUI_QuizProjectInSwiftUIUITests
+@end

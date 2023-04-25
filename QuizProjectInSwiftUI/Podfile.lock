@@ -1,0 +1,22 @@
+PODS:
+  - GRDB.swift (6.10.2):
+    - GRDB.swift/standard (= 6.10.2)
+  - GRDB.swift/standard (6.10.2)
+  - PKHUD (5.3.0)
+
+DEPENDENCIES:
+  - GRDB.swift
+  - PKHUD
+
+SPEC REPOS:
+  trunk:
+    - GRDB.swift
+    - PKHUD
+
+SPEC CHECKSUMS:
+  GRDB.swift: d2fe6ff28b6d8e5b43104186752d88e94ef0e290
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
+
+PODFILE CHECKSUM: d7142003d0f2291fb35e3cf54cb2c2c4a7b972ab
+
+COCOAPODS: 1.11.3

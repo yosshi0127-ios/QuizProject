@@ -1,0 +1,6 @@
+framework module Pods_QuizProjectInSwiftUI_QuizProjectInSwiftUIUITests {
+  umbrella header "Pods-QuizProjectInSwiftUI-QuizProjectInSwiftUIUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
