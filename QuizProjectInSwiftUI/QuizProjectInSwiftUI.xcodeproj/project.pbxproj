@@ -124,10 +124,16 @@
 		364ADDA029F89A30007DD06E /* QuizProjectInSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				364ADDCE29F89D22007DD06E /* Fonts */,
 				364ADDA129F89A30007DD06E /* QuizProjectInSwiftUIApp.swift */,
-				364ADDA329F89A30007DD06E /* ContentView.swift */,
-				364ADDA529F89A31007DD06E /* Assets.xcassets */,
+				364ADDDA29F89F14007DD06E /* Extensions */,
+				364ADDD929F89F09007DD06E /* API */,
+				364ADDD829F89EF2007DD06E /* DataBase */,
+				364ADDD629F89EBB007DD06E /* Util */,
+				364ADDD529F89E96007DD06E /* Protocols */,
+				364ADDD429F89E78007DD06E /* Models */,
+				364ADDD329F89E67007DD06E /* ViewModels */,
+				364ADDD229F89E57007DD06E /* Views */,
+				364ADDD729F89ECB007DD06E /* Resource */,
 				364ADDA729F89A31007DD06E /* Preview Content */,
 			);
 			path = QuizProjectInSwiftUI;
@@ -164,6 +170,72 @@
 				364ADDD129F89D33007DD06E /* nicomoji-plus_v2.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		364ADDD229F89E57007DD06E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				364ADDA329F89A30007DD06E /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		364ADDD329F89E67007DD06E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		364ADDD429F89E78007DD06E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		364ADDD529F89E96007DD06E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		364ADDD629F89EBB007DD06E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		364ADDD729F89ECB007DD06E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				364ADDCE29F89D22007DD06E /* Fonts */,
+				364ADDA529F89A31007DD06E /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		364ADDD829F89EF2007DD06E /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		364ADDD929F89F09007DD06E /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		364ADDDA29F89F14007DD06E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		67C713870D74A70B3D8817A3 /* Pods */ = {
