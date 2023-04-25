@@ -134,15 +134,15 @@ class ProblemChallengeViewController: VerticallyScreenViewController {
     /// 結果表示画面へ遷移する、保存したModelを渡す
     func moveToTheNextScreen(_ model: HistoryInfoModel) {
         // 結果画面へ遷移する
-//        let storyboard = UIStoryboard(name: Con.ResultVC.name, bundle: nil)
-//        let resultVC = storyboard.instantiateViewController(withIdentifier: Con.ResultVC.identifier) as! ResultViewController
-//        resultVC.modalPresentationStyle = .fullScreen
-//        resultVC.modalTransitionStyle = .partialCurl
+        let storyboard = UIStoryboard(name: Con.ResultVC.name, bundle: nil)
+        let resultVC = storyboard.instantiateViewController(withIdentifier: Con.ResultVC.identifier) as! ResultViewController
+        resultVC.modalPresentationStyle = .fullScreen
+        resultVC.modalTransitionStyle = .partialCurl
         
         // 結果表示画面のhistoryModelにセット
-//        resultVC.model = model
-//
-//        self.present(resultVC, animated: true)
+        resultVC.model = model
+
+        self.present(resultVC, animated: true)
     }
     
     // MARK: -- @IBAction

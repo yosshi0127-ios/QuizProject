@@ -57,14 +57,12 @@ class TopViewController : UIViewController {
     }
     
     @IBAction func challengeHistoryPressed(_ sender: UIButton) {
-//        let storyboard = UIStoryboard(name: Con.ResultListVC.name, bundle: nil)
-//        let resultListVC = storyboard.instantiateViewController(withIdentifier: Con.ResultListVC.identifier) as! ResultListViewController
+        let storyboard = UIStoryboard(name: Con.ResultListVC.name, bundle: nil)
+        let resultListVC = storyboard.instantiateViewController(withIdentifier: Con.ResultListVC.identifier) as! ResultListViewController
 
         // SEを流す
         PlayerBrain.players[.ButtonTap1]?.playSound()
 
-//        navigationController?.pushViewController(resultListVC, animated: true)
+        navigationController?.pushViewController(resultListVC, animated: true)
     }
-    
-    
 }

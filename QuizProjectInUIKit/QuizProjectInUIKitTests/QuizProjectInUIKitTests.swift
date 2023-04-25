@@ -10,6 +10,49 @@ import XCTest
 
 final class QuizProjectInUIKitTests: XCTestCase {
 
+    func test_fetchQuizData_正常系() {
+                
+        let viewModel = ServiceManager(service: MockService(repos: [.mock1], error: nil))
+        
+        viewModel.getQuiz(category: "All") { result in
+            
+            switch result {
+                
+            case .success(let quizData):
+                XCTAssertEqual(quizData, [QuizData.mock1])
+                
+            case .failure(_):
+                XCTFail()
+            }
+        }
+    }
+    
+    func test_fetchQuizData_異常系() {
+        
+        let viewModel = ServiceManager(service: MockService(repos: [.mock1], error: DummyError()))
+        
+        viewModel.getQuiz(category: "All") { result in
+            
+            switch result {
+                
+            case .success(_):
+                XCTFail()
+
+            case .failure(let error):
+                XCTAssert(error is DummyError)
+            }
+        }
+    }
+    
+    func test_repositoryGetHistoryModel_正常系() {
+        
+        let viewModel = RepositoryManager(repository: MockRepository(repos: [.mock1]))
+        
+        let model = viewModel.getHistoryInfoModels()
+        
+        XCTAssertEqual(model, [.mock1])
+    }
+
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }

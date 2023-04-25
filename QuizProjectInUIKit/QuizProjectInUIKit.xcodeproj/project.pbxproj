@@ -78,6 +78,24 @@
 		3667409B29F6C594004E2206 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3667409A29F6C594004E2206 /* Settings.swift */; };
 		3667409D29F74E32004E2206 /* VerticallyScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3667409C29F74E32004E2206 /* VerticallyScreenViewController.swift */; };
 		3667409F29F74E59004E2206 /* ZundamonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3667409E29F74E59004E2206 /* ZundamonManager.swift */; };
+		366740A129F74F90004E2206 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366740A029F74F90004E2206 /* ResultViewController.swift */; };
+		366740A329F74FB6004E2206 /* ResultListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366740A229F74FB5004E2206 /* ResultListViewController.swift */; };
+		366740A529F74FDB004E2206 /* ResultListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366740A429F74FDB004E2206 /* ResultListTableViewCell.swift */; };
+		366740A729F74FEA004E2206 /* ResultListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 366740A629F74FEA004E2206 /* ResultListTableViewCell.xib */; };
+		366740A929F75007004E2206 /* ResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 366740A829F75007004E2206 /* ResultTableViewCell.xib */; };
+		366740AB29F7500E004E2206 /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366740AA29F7500E004E2206 /* ResultTableViewCell.swift */; };
+		366740AD29F75051004E2206 /* ResultDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366740AC29F75051004E2206 /* ResultDetailViewController.swift */; };
+		366740AF29F750B2004E2206 /* ResultScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366740AE29F750B2004E2206 /* ResultScreen.storyboard */; };
+		366740B129F750B8004E2206 /* ResultDetailScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366740B029F750B8004E2206 /* ResultDetailScreen.storyboard */; };
+		366740B329F750BD004E2206 /* ResultListScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366740B229F750BD004E2206 /* ResultListScreen.storyboard */; };
+		366740BA29F75212004E2206 /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366740B529F75212004E2206 /* MockService.swift */; };
+		366740BB29F75212004E2206 /* QuizData+mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366740B629F75212004E2206 /* QuizData+mock.swift */; };
+		366740BC29F75212004E2206 /* Answers+mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366740B729F75212004E2206 /* Answers+mock.swift */; };
+		366740BD29F75212004E2206 /* CorrectAnswers+mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366740B829F75212004E2206 /* CorrectAnswers+mock.swift */; };
+		366740BE29F75212004E2206 /* DummyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366740B929F75212004E2206 /* DummyError.swift */; };
+		366740C329F75245004E2206 /* HistoryInfoModel+mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366740C029F75245004E2206 /* HistoryInfoModel+mock.swift */; };
+		366740C429F75245004E2206 /* MockRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366740C129F75245004E2206 /* MockRepository.swift */; };
+		366740C529F75245004E2206 /* Problem+mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366740C229F75245004E2206 /* Problem+mock.swift */; };
 		6C26665A999060EF7137742F /* Pods_QuizProjectInUIKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFB2E5BC7CAD7991C0135CC /* Pods_QuizProjectInUIKitTests.framework */; };
 		8BD6A1128A40FACE17DE5F6F /* Pods_QuizProjectInUIKit_QuizProjectInUIKitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B06C439D8BC3DFE18B65852 /* Pods_QuizProjectInUIKit_QuizProjectInUIKitUITests.framework */; };
 		D650245FA11F0924AD6CB2B9 /* Pods_QuizProjectInUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A710328F9AB861861C6D1E1 /* Pods_QuizProjectInUIKit.framework */; };
@@ -178,6 +196,24 @@
 		3667409A29F6C594004E2206 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		3667409C29F74E32004E2206 /* VerticallyScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticallyScreenViewController.swift; sourceTree = "<group>"; };
 		3667409E29F74E59004E2206 /* ZundamonManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZundamonManager.swift; sourceTree = "<group>"; };
+		366740A029F74F90004E2206 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		366740A229F74FB5004E2206 /* ResultListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultListViewController.swift; sourceTree = "<group>"; };
+		366740A429F74FDB004E2206 /* ResultListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultListTableViewCell.swift; sourceTree = "<group>"; };
+		366740A629F74FEA004E2206 /* ResultListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultListTableViewCell.xib; sourceTree = "<group>"; };
+		366740A829F75007004E2206 /* ResultTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultTableViewCell.xib; sourceTree = "<group>"; };
+		366740AA29F7500E004E2206 /* ResultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
+		366740AC29F75051004E2206 /* ResultDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultDetailViewController.swift; sourceTree = "<group>"; };
+		366740AE29F750B2004E2206 /* ResultScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ResultScreen.storyboard; sourceTree = "<group>"; };
+		366740B029F750B8004E2206 /* ResultDetailScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ResultDetailScreen.storyboard; sourceTree = "<group>"; };
+		366740B229F750BD004E2206 /* ResultListScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ResultListScreen.storyboard; sourceTree = "<group>"; };
+		366740B529F75212004E2206 /* MockService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockService.swift; sourceTree = "<group>"; };
+		366740B629F75212004E2206 /* QuizData+mock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "QuizData+mock.swift"; sourceTree = "<group>"; };
+		366740B729F75212004E2206 /* Answers+mock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Answers+mock.swift"; sourceTree = "<group>"; };
+		366740B829F75212004E2206 /* CorrectAnswers+mock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CorrectAnswers+mock.swift"; sourceTree = "<group>"; };
+		366740B929F75212004E2206 /* DummyError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyError.swift; sourceTree = "<group>"; };
+		366740C029F75245004E2206 /* HistoryInfoModel+mock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HistoryInfoModel+mock.swift"; sourceTree = "<group>"; };
+		366740C129F75245004E2206 /* MockRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockRepository.swift; sourceTree = "<group>"; };
+		366740C229F75245004E2206 /* Problem+mock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Problem+mock.swift"; sourceTree = "<group>"; };
 		6F35002DC615616AF14EF08C /* Pods-QuizProjectInUIKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizProjectInUIKitTests.debug.xcconfig"; path = "Target Support Files/Pods-QuizProjectInUIKitTests/Pods-QuizProjectInUIKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		742B6253280C106E66DA2EFE /* Pods-QuizProjectInUIKit-QuizProjectInUIKitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizProjectInUIKit-QuizProjectInUIKitUITests.release.xcconfig"; path = "Target Support Files/Pods-QuizProjectInUIKit-QuizProjectInUIKitUITests/Pods-QuizProjectInUIKit-QuizProjectInUIKitUITests.release.xcconfig"; sourceTree = "<group>"; };
 		87D34960FBB71683BBF0ACEA /* Pods-QuizProjectInUIKit-QuizProjectInUIKitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizProjectInUIKit-QuizProjectInUIKitUITests.debug.xcconfig"; path = "Target Support Files/Pods-QuizProjectInUIKit-QuizProjectInUIKitUITests/Pods-QuizProjectInUIKit-QuizProjectInUIKitUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -242,7 +278,6 @@
 			children = (
 				3631326B29F520BE0093BE38 /* AppDelegate.swift */,
 				3631326D29F520BE0093BE38 /* SceneDelegate.swift */,
-				3667405629F5598E004E2206 /* IInterface */,
 				3667405029F5590E004E2206 /* Network */,
 				36673FF329F52EB5004E2206 /* Extensions */,
 				3667409529F6C53A004E2206 /* Protocols */,
@@ -254,8 +289,9 @@
 				3667406029F55A7F004E2206 /* Cells */,
 				3667406329F55ACA004E2206 /* Xibs */,
 				36673FDD29F529F1004E2206 /* Storyboards */,
-				36673FEA29F52DEA004E2206 /* Resource */,
 				3631327629F520BF0093BE38 /* LaunchScreen.storyboard */,
+				36673FEA29F52DEA004E2206 /* Resource */,
+				366740B429F751F9004E2206 /* Mock */,
 				3631327929F520BF0093BE38 /* Info.plist */,
 			);
 			path = QuizProjectInUIKit;
@@ -284,6 +320,9 @@
 				36673FE829F52CF7004E2206 /* TopScreeen.storyboard */,
 				3667404929F557B0004E2206 /* GenreSelectScreen.storyboard */,
 				3667406829F5FAD8004E2206 /* ProblemChallengeScreen.storyboard */,
+				366740AE29F750B2004E2206 /* ResultScreen.storyboard */,
+				366740B029F750B8004E2206 /* ResultDetailScreen.storyboard */,
+				366740B229F750BD004E2206 /* ResultListScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -294,6 +333,9 @@
 				36673FE629F52BE1004E2206 /* TopViewController.swift */,
 				3667404B29F55804004E2206 /* GenreSelectViewController.swift */,
 				3667406629F5FA9E004E2206 /* ProblemChallengeViewController.swift */,
+				366740A029F74F90004E2206 /* ResultViewController.swift */,
+				366740A229F74FB5004E2206 /* ResultListViewController.swift */,
+				366740AC29F75051004E2206 /* ResultDetailViewController.swift */,
 				3667409C29F74E32004E2206 /* VerticallyScreenViewController.swift */,
 			);
 			path = ViewControllers;
@@ -410,14 +452,6 @@
 			path = APIClients;
 			sourceTree = "<group>";
 		};
-		3667405629F5598E004E2206 /* IInterface */ = {
-			isa = PBXGroup;
-			children = (
-				3667405729F559A1004E2206 /* Service.swift */,
-			);
-			path = IInterface;
-			sourceTree = "<group>";
-		};
 		3667405929F559C5004E2206 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
@@ -431,6 +465,8 @@
 			children = (
 				3667406129F55AB6004E2206 /* GenreSelectTableViewCell.swift */,
 				3667407B29F6C3B1004E2206 /* ProblemChallengeTableViewCell.swift */,
+				366740AA29F7500E004E2206 /* ResultTableViewCell.swift */,
+				366740A429F74FDB004E2206 /* ResultListTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -440,6 +476,8 @@
 			children = (
 				3667407D29F6C3C2004E2206 /* ProblemChallengeTableViewCell.xib */,
 				3667406429F55AD7004E2206 /* GenreSelectTableViewCell.xib */,
+				366740A829F75007004E2206 /* ResultTableViewCell.xib */,
+				366740A629F74FEA004E2206 /* ResultListTableViewCell.xib */,
 			);
 			path = Xibs;
 			sourceTree = "<group>";
@@ -525,8 +563,32 @@
 			isa = PBXGroup;
 			children = (
 				3667409629F6C548004E2206 /* Repository.swift */,
+				3667405729F559A1004E2206 /* Service.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		366740B429F751F9004E2206 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				366740BF29F7523D004E2206 /* Repository */,
+				366740B729F75212004E2206 /* Answers+mock.swift */,
+				366740B829F75212004E2206 /* CorrectAnswers+mock.swift */,
+				366740B929F75212004E2206 /* DummyError.swift */,
+				366740B529F75212004E2206 /* MockService.swift */,
+				366740B629F75212004E2206 /* QuizData+mock.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		366740BF29F7523D004E2206 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				366740C029F75245004E2206 /* HistoryInfoModel+mock.swift */,
+				366740C129F75245004E2206 /* MockRepository.swift */,
+				366740C229F75245004E2206 /* Problem+mock.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 		4D262E4E3174C783B99962E0 /* Frameworks */ = {
@@ -673,6 +735,7 @@
 				3667403829F5572B004E2206 /* えええ、、勉強するのだ.mp3 in Resources */,
 				3667404329F5572B004E2206 /* 残念BGM.mp3 in Resources */,
 				3667403C29F5572B004E2206 /* SunriseBGM.mp3 in Resources */,
+				366740B329F750BD004E2206 /* ResultListScreen.storyboard in Resources */,
 				3667403B29F5572B004E2206 /* syuwasyuwaBGM.mp3 in Resources */,
 				3667406929F5FAD8004E2206 /* ProblemChallengeScreen.storyboard in Resources */,
 				3667403F29F5572B004E2206 /* NotSelect.mp3 in Resources */,
@@ -685,12 +748,16 @@
 				36673FED29F52E0C004E2206 /* nicomoji-plus_v2.ttf in Resources */,
 				3667404529F5572B004E2206 /* 次は頑張るのだ、応援してるのだ.mp3 in Resources */,
 				36673FE929F52CF7004E2206 /* TopScreeen.storyboard in Resources */,
+				366740B129F750B8004E2206 /* ResultDetailScreen.storyboard in Resources */,
+				366740AF29F750B2004E2206 /* ResultScreen.storyboard in Resources */,
+				366740A929F75007004E2206 /* ResultTableViewCell.xib in Resources */,
 				3667404029F5572B004E2206 /* ジャンルを選択するのだ.mp3 in Resources */,
 				3667403929F5572B004E2206 /* 不正解なのだ.mp3 in Resources */,
 				3631327829F520BF0093BE38 /* LaunchScreen.storyboard in Resources */,
 				3667407E29F6C3C3004E2206 /* ProblemChallengeTableViewCell.xib in Resources */,
 				3667403E29F5572B004E2206 /* まずまずなのだ、次は満点目指すのだ.mp3 in Resources */,
 				3667403A29F5572B004E2206 /* ButtonTap1.mp3 in Resources */,
+				366740A729F74FEA004E2206 /* ResultListTableViewCell.xib in Resources */,
 				3631327529F520BF0093BE38 /* Assets.xcassets in Resources */,
 				3667404A29F557B0004E2206 /* GenreSelectScreen.storyboard in Resources */,
 			);
@@ -824,18 +891,24 @@
 				3667406729F5FA9E004E2206 /* ProblemChallengeViewController.swift in Sources */,
 				36673FE529F52BAB004E2206 /* Constants.swift in Sources */,
 				3667406E29F6C286004E2206 /* HistoryInfoModel.swift in Sources */,
+				366740A329F74FB6004E2206 /* ResultListViewController.swift in Sources */,
 				3667402429F5557E004E2206 /* UIAlertController-Extension.swift in Sources */,
+				366740C429F75245004E2206 /* MockRepository.swift in Sources */,
 				3667404C29F55804004E2206 /* GenreSelectViewController.swift in Sources */,
 				3667408329F6C417004E2206 /* UIColor-Extension.swift in Sources */,
 				3667408D29F6C4C4004E2206 /* HistoryRealmInfoDao.swift in Sources */,
 				3667409729F6C548004E2206 /* Repository.swift in Sources */,
+				366740AD29F75051004E2206 /* ResultDetailViewController.swift in Sources */,
 				3667405529F5594B004E2206 /* ServiceAPIClient.swift in Sources */,
+				366740C529F75245004E2206 /* Problem+mock.swift in Sources */,
 				3667406B29F6C234004E2206 /* QuizBrain.swift in Sources */,
 				36673FF529F52EE5004E2206 /* UIImage-Extension.swift in Sources */,
 				3667407529F6C31E004E2206 /* Date-Extension.swift in Sources */,
 				3667408C29F6C4C4004E2206 /* BaseRealmDao.swift in Sources */,
 				3631326C29F520BE0093BE38 /* AppDelegate.swift in Sources */,
 				3667409B29F6C594004E2206 /* Settings.swift in Sources */,
+				366740BD29F75212004E2206 /* CorrectAnswers+mock.swift in Sources */,
+				366740BE29F75212004E2206 /* DummyError.swift in Sources */,
 				3667405329F55935004E2206 /* ServiceManager.swift in Sources */,
 				3667408629F6C47E004E2206 /* RepositoryManager.swift in Sources */,
 				3667407729F6C33A004E2206 /* DateFormatter-Extension.swift in Sources */,
@@ -843,6 +916,7 @@
 				36673FF729F5548C004E2206 /* UserDefault-Extension.swift in Sources */,
 				3667409D29F74E32004E2206 /* VerticallyScreenViewController.swift in Sources */,
 				3667407A29F6C386004E2206 /* HistoryInfoTable.swift in Sources */,
+				366740A129F74F90004E2206 /* ResultViewController.swift in Sources */,
 				3667409329F6C507004E2206 /* SQLiteHelper.swift in Sources */,
 				3667405829F559A1004E2206 /* Service.swift in Sources */,
 				36673FF929F554C8004E2206 /* UIViewController-Extension.swift in Sources */,
@@ -852,14 +926,20 @@
 				36673FE729F52BE1004E2206 /* TopViewController.swift in Sources */,
 				36673FFB29F55512004E2206 /* Player.swift in Sources */,
 				36673FF229F52E79004E2206 /* AnimateImageModel.swift in Sources */,
+				366740BC29F75212004E2206 /* Answers+mock.swift in Sources */,
 				3667408129F6C3E8004E2206 /* ShadowView.swift in Sources */,
 				3667405B29F559CE004E2206 /* QuizData.swift in Sources */,
 				3667409929F6C569004E2206 /* RepositoryHistoryInfoModel.swift in Sources */,
+				366740BB29F75212004E2206 /* QuizData+mock.swift in Sources */,
 				3667407C29F6C3B1004E2206 /* ProblemChallengeTableViewCell.swift in Sources */,
 				36673FFD29F5552F004E2206 /* PlayerBrain.swift in Sources */,
+				366740BA29F75212004E2206 /* MockService.swift in Sources */,
 				3667409F29F74E59004E2206 /* ZundamonManager.swift in Sources */,
+				366740C329F75245004E2206 /* HistoryInfoModel+mock.swift in Sources */,
 				3667409429F6C507004E2206 /* HistorySQLiteInfoDao.swift in Sources */,
 				3667407129F6C2D1004E2206 /* HistoryInfoRealmModel.swift in Sources */,
+				366740A529F74FDB004E2206 /* ResultListTableViewCell.swift in Sources */,
+				366740AB29F7500E004E2206 /* ResultTableViewCell.swift in Sources */,
 				3667405D29F55A12004E2206 /* ServiceData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
