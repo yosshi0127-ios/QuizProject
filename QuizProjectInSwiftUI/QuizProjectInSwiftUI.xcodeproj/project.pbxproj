@@ -23,6 +23,15 @@
 		364ADDE929F89FCE007DD06E /* 春のキッチンBGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 364ADDE129F89FCE007DD06E /* 春のキッチンBGM.mp3 */; };
 		364ADDEA29F89FCE007DD06E /* Dance_With_PowderBGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 364ADDE229F89FCE007DD06E /* Dance_With_PowderBGM.mp3 */; };
 		364ADDEB29F89FCE007DD06E /* Shall_we_meet?BGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 364ADDE329F89FCE007DD06E /* Shall_we_meet?BGM.mp3 */; };
+		364ADDF829F8A028007DD06E /* 次は頑張るのだ、応援してるのだ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 364ADDEE29F8A028007DD06E /* 次は頑張るのだ、応援してるのだ.mp3 */; };
+		364ADDF929F8A028007DD06E /* 終了なのだ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 364ADDEF29F8A028007DD06E /* 終了なのだ.mp3 */; };
+		364ADDFA29F8A028007DD06E /* ジャンルを選択するのだ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 364ADDF029F8A028007DD06E /* ジャンルを選択するのだ.mp3 */; };
+		364ADDFC29F8A028007DD06E /* えええ、、勉強するのだ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 364ADDF229F8A028007DD06E /* えええ、、勉強するのだ.mp3 */; };
+		364ADDFD29F8A028007DD06E /* まずまずなのだ、次は満点目指すのだ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 364ADDF329F8A028007DD06E /* まずまずなのだ、次は満点目指すのだ.mp3 */; };
+		364ADDFE29F8A028007DD06E /* 正解なのだ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 364ADDF429F8A028007DD06E /* 正解なのだ.mp3 */; };
+		364ADDFF29F8A028007DD06E /* もう少し頑張るのだ、ファイトなのだ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 364ADDF529F8A028007DD06E /* もう少し頑張るのだ、ファイトなのだ.mp3 */; };
+		364ADE0029F8A028007DD06E /* 不正解なのだ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 364ADDF629F8A028007DD06E /* 不正解なのだ.mp3 */; };
+		364ADE0129F8A028007DD06E /* すごいのだ、天才なのだ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 364ADDF729F8A028007DD06E /* すごいのだ、天才なのだ.mp3 */; };
 		434DC58F6D163799A114E120 /* Pods_QuizProjectInSwiftUI_QuizProjectInSwiftUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E9D32B404F9ADD2963EFCA /* Pods_QuizProjectInSwiftUI_QuizProjectInSwiftUIUITests.framework */; };
 		6117A63E69AA490AC388DC1F /* Pods_QuizProjectInSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE6CFD9394ACF554F87DA11 /* Pods_QuizProjectInSwiftUI.framework */; };
 		C26159CB85E8F27243CB9B28 /* Pods_QuizProjectInSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4388483B61CDE242A4E67865 /* Pods_QuizProjectInSwiftUITests.framework */; };
@@ -65,6 +74,15 @@
 		364ADDE129F89FCE007DD06E /* 春のキッチンBGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "春のキッチンBGM.mp3"; sourceTree = "<group>"; };
 		364ADDE229F89FCE007DD06E /* Dance_With_PowderBGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dance_With_PowderBGM.mp3; sourceTree = "<group>"; };
 		364ADDE329F89FCE007DD06E /* Shall_we_meet?BGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Shall_we_meet?BGM.mp3"; sourceTree = "<group>"; };
+		364ADDEE29F8A028007DD06E /* 次は頑張るのだ、応援してるのだ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "次は頑張るのだ、応援してるのだ.mp3"; sourceTree = "<group>"; };
+		364ADDEF29F8A028007DD06E /* 終了なのだ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "終了なのだ.mp3"; sourceTree = "<group>"; };
+		364ADDF029F8A028007DD06E /* ジャンルを選択するのだ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ジャンルを選択するのだ.mp3"; sourceTree = "<group>"; };
+		364ADDF229F8A028007DD06E /* えええ、、勉強するのだ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "えええ、、勉強するのだ.mp3"; sourceTree = "<group>"; };
+		364ADDF329F8A028007DD06E /* まずまずなのだ、次は満点目指すのだ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "まずまずなのだ、次は満点目指すのだ.mp3"; sourceTree = "<group>"; };
+		364ADDF429F8A028007DD06E /* 正解なのだ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "正解なのだ.mp3"; sourceTree = "<group>"; };
+		364ADDF529F8A028007DD06E /* もう少し頑張るのだ、ファイトなのだ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "もう少し頑張るのだ、ファイトなのだ.mp3"; sourceTree = "<group>"; };
+		364ADDF629F8A028007DD06E /* 不正解なのだ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "不正解なのだ.mp3"; sourceTree = "<group>"; };
+		364ADDF729F8A028007DD06E /* すごいのだ、天才なのだ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "すごいのだ、天才なのだ.mp3"; sourceTree = "<group>"; };
 		3D359F8758A709ADE35D5C7D /* Pods-QuizProjectInSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizProjectInSwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-QuizProjectInSwiftUITests/Pods-QuizProjectInSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3F24B1C897E7EB0986DA0673 /* Pods-QuizProjectInSwiftUI-QuizProjectInSwiftUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizProjectInSwiftUI-QuizProjectInSwiftUIUITests.debug.xcconfig"; path = "Target Support Files/Pods-QuizProjectInSwiftUI-QuizProjectInSwiftUIUITests/Pods-QuizProjectInSwiftUI-QuizProjectInSwiftUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		42E9D32B404F9ADD2963EFCA /* Pods_QuizProjectInSwiftUI_QuizProjectInSwiftUIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuizProjectInSwiftUI_QuizProjectInSwiftUIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -282,6 +300,15 @@
 		364ADDED29F89FE7007DD06E /* ZundamonVoice */ = {
 			isa = PBXGroup;
 			children = (
+				364ADDF229F8A028007DD06E /* えええ、、勉強するのだ.mp3 */,
+				364ADDF029F8A028007DD06E /* ジャンルを選択するのだ.mp3 */,
+				364ADDF729F8A028007DD06E /* すごいのだ、天才なのだ.mp3 */,
+				364ADDF329F8A028007DD06E /* まずまずなのだ、次は満点目指すのだ.mp3 */,
+				364ADDF529F8A028007DD06E /* もう少し頑張るのだ、ファイトなのだ.mp3 */,
+				364ADDEE29F8A028007DD06E /* 次は頑張るのだ、応援してるのだ.mp3 */,
+				364ADDEF29F8A028007DD06E /* 終了なのだ.mp3 */,
+				364ADDF429F8A028007DD06E /* 正解なのだ.mp3 */,
+				364ADDF629F8A028007DD06E /* 不正解なのだ.mp3 */,
 			);
 			path = ZundamonVoice;
 			sourceTree = "<group>";
@@ -414,16 +441,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				364ADDFC29F8A028007DD06E /* えええ、、勉強するのだ.mp3 in Resources */,
 				364ADDE929F89FCE007DD06E /* 春のキッチンBGM.mp3 in Resources */,
 				364ADDE629F89FCE007DD06E /* AnswerSelect.mp3 in Resources */,
 				364ADDE429F89FCE007DD06E /* ButtonTap1.mp3 in Resources */,
 				364ADDE729F89FCE007DD06E /* NotSelect.mp3 in Resources */,
+				364ADDFF29F8A028007DD06E /* もう少し頑張るのだ、ファイトなのだ.mp3 in Resources */,
+				364ADE0029F8A028007DD06E /* 不正解なのだ.mp3 in Resources */,
+				364ADDFD29F8A028007DD06E /* まずまずなのだ、次は満点目指すのだ.mp3 in Resources */,
+				364ADDF829F8A028007DD06E /* 次は頑張るのだ、応援してるのだ.mp3 in Resources */,
 				364ADDA929F89A31007DD06E /* Preview Assets.xcassets in Resources */,
 				364ADDEB29F89FCE007DD06E /* Shall_we_meet?BGM.mp3 in Resources */,
+				364ADDFA29F8A028007DD06E /* ジャンルを選択するのだ.mp3 in Resources */,
 				364ADDA629F89A31007DD06E /* Assets.xcassets in Resources */,
+				364ADDF929F8A028007DD06E /* 終了なのだ.mp3 in Resources */,
+				364ADDFE29F8A028007DD06E /* 正解なのだ.mp3 in Resources */,
 				364ADDEA29F89FCE007DD06E /* Dance_With_PowderBGM.mp3 in Resources */,
 				364ADDE529F89FCE007DD06E /* SunriseBGM.mp3 in Resources */,
 				364ADDE829F89FCE007DD06E /* syuwasyuwaBGM.mp3 in Resources */,
+				364ADE0129F8A028007DD06E /* すごいのだ、天才なのだ.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
