@@ -1,7 +1,7 @@
 # QuizProject
 
 # アプリケーション概要
-ITの問題を答えながらITについて学べることができるiOSアプリ(iPhoneのみ)
+ITの問題を答えながらITについて学べることができるiOSアプリ(iPhone, iPad)
 
 # 仕様技術
 
