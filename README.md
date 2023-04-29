@@ -25,9 +25,6 @@ ITの問題を答えながらITについて学べることができるiOSアプ�
     - パターン1： 非同期処理はGCDで、UIはUIKitで実装
     - パターン2： 非同期処理はSwift Concurrencyで、UIはSwiftUIで実装
 
-# Demo
-TODO: Gif画像で貼り付ける
-
 # アプリケーション仕様
 
 ## 機能概要
@@ -72,6 +69,8 @@ https://quizapi.io/docs/1.0/overview
 - 以下の2つのボタンを表示
     - 「クイズに挑戦」ボタン
     - 「挑戦履歴」ボタン
+    
+<img src="ReadmeResource/img/topScreen.PNG" width="320px">   
 
 ## ジャンル選択画面
 
@@ -83,6 +82,8 @@ https://quizapi.io/docs/1.0/overview
     - SQL
 - 選択すると、[問題取得のAPI](#問題取得)で問題の取得を行う
     - クエリパラメータ`limit`に`10`を指定し、10件要求する
+    
+<img src="ReadmeResource/img/genreScreen.PNG" width="320px">   
 
 ## 問題挑戦画面
 
@@ -107,6 +108,8 @@ https://quizapi.io/docs/1.0/overview
 - 履歴追加処理
     - ローカルDBに履歴を追加する
 
+https://user-images.githubusercontent.com/105440671/235298487-db376995-3bd6-4b9e-958c-b94571860973.mp4
+
 ## 結果画面
 
 - 選択ジャンル、問題数、正解数、正答率を表示
@@ -121,6 +124,8 @@ https://quizapi.io/docs/1.0/overview
 - 問題挑戦画面から遷移している場合は、トップに戻るボタンを表示
     - 履歴画面から遷移している場合は、ナビゲーションの戻る操作で戻る
 
+https://user-images.githubusercontent.com/105440671/235298608-8642ff03-be01-4c99-89bb-8b7690674314.mp4
+
 ## 履歴画面
 
 - ローカルDBから挑戦の履歴情報を参照し、リスト表示
@@ -130,4 +135,4 @@ https://quizapi.io/docs/1.0/overview
     - 問題数、正解数、正解率
     - セル選択で、結果画面に遷移
 
-
+https://user-images.githubusercontent.com/105440671/235298615-3d78f360-f1dc-4267-84a8-f86269d880de.mp4
