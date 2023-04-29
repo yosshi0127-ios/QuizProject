@@ -52,6 +52,7 @@ struct TopView: View {
             }
 
         }
+        .navigationViewStyle(.stack)
     }
 }
 
