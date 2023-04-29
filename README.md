@@ -23,7 +23,10 @@ ITの問題を答えながらITについて学べることができるiOSアプ�
 
 - 2パターンの作り方で実装
     - パターン1： 非同期処理はGCDで、UIはUIKitで実装
+      - https://github.com/yosshi0127-ios/QuizProject/tree/main/QuizProjectInUIKit
+      
     - パターン2： 非同期処理はSwift Concurrencyで、UIはSwiftUIで実装
+      - https://github.com/yosshi0127-ios/QuizProject/tree/main/QuizProjectInSwiftUI
 
 # アプリケーション仕様
 
