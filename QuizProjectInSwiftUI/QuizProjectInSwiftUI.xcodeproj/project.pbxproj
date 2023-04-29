@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		364ADDA229F89A30007DD06E /* QuizProjectInSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADDA129F89A30007DD06E /* QuizProjectInSwiftUIApp.swift */; };
-		364ADDA429F89A30007DD06E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADDA329F89A30007DD06E /* ContentView.swift */; };
 		364ADDA629F89A31007DD06E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 364ADDA529F89A31007DD06E /* Assets.xcassets */; };
 		364ADDA929F89A31007DD06E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 364ADDA829F89A31007DD06E /* Preview Assets.xcassets */; };
 		364ADDB329F89A31007DD06E /* QuizProjectInSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADDB229F89A31007DD06E /* QuizProjectInSwiftUITests.swift */; };
@@ -33,6 +32,65 @@
 		364ADE0029F8A028007DD06E /* 不正解なのだ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 364ADDF629F8A028007DD06E /* 不正解なのだ.mp3 */; };
 		364ADE0129F8A028007DD06E /* すごいのだ、天才なのだ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 364ADDF729F8A028007DD06E /* すごいのだ、天才なのだ.mp3 */; };
 		364ADE0329F8A12E007DD06E /* 残念BGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 364ADE0229F8A12E007DD06E /* 残念BGM.mp3 */; };
+		364ADE0B29FCA11A007DD06E /* ResultDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE0429FCA119007DD06E /* ResultDetailView.swift */; };
+		364ADE0C29FCA11A007DD06E /* LazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE0529FCA119007DD06E /* LazyView.swift */; };
+		364ADE0D29FCA11A007DD06E /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE0629FCA11A007DD06E /* ResultView.swift */; };
+		364ADE0E29FCA11A007DD06E /* PloblemChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE0729FCA11A007DD06E /* PloblemChallengeView.swift */; };
+		364ADE0F29FCA11A007DD06E /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE0829FCA11A007DD06E /* TopView.swift */; };
+		364ADE1029FCA11A007DD06E /* GenreSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE0929FCA11A007DD06E /* GenreSelectView.swift */; };
+		364ADE1129FCA11A007DD06E /* ResultListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE0A29FCA11A007DD06E /* ResultListView.swift */; };
+		364ADE1B29FCA257007DD06E /* GenreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE1229FCA256007DD06E /* GenreViewModel.swift */; };
+		364ADE1C29FCA257007DD06E /* ProblemChallengeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE1329FCA256007DD06E /* ProblemChallengeViewModel.swift */; };
+		364ADE1D29FCA257007DD06E /* AnimationImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE1429FCA256007DD06E /* AnimationImageViewModel.swift */; };
+		364ADE1E29FCA257007DD06E /* ResultListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE1529FCA257007DD06E /* ResultListViewModel.swift */; };
+		364ADE1F29FCA257007DD06E /* ResultDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE1629FCA257007DD06E /* ResultDetailViewModel.swift */; };
+		364ADE2029FCA257007DD06E /* TopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE1729FCA257007DD06E /* TopViewModel.swift */; };
+		364ADE2129FCA257007DD06E /* ProblemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE1829FCA257007DD06E /* ProblemViewModel.swift */; };
+		364ADE2229FCA257007DD06E /* HistoryInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE1929FCA257007DD06E /* HistoryInfoViewModel.swift */; };
+		364ADE2329FCA257007DD06E /* ResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE1A29FCA257007DD06E /* ResultViewModel.swift */; };
+		364ADE3829FCA32F007DD06E /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE3629FCA32F007DD06E /* Service.swift */; };
+		364ADE3929FCA32F007DD06E /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE3729FCA32F007DD06E /* Repository.swift */; };
+		364ADE3E29FCA34B007DD06E /* PKHUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE3B29FCA34B007DD06E /* PKHUDView.swift */; };
+		364ADE3F29FCA34B007DD06E /* PKHUDViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE3C29FCA34B007DD06E /* PKHUDViewModifier.swift */; };
+		364ADE4029FCA34B007DD06E /* PKHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE3D29FCA34B007DD06E /* PKHUD.swift */; };
+		364ADE4629FCA37B007DD06E /* VisibleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE4229FCA37B007DD06E /* VisibleModifier.swift */; };
+		364ADE4729FCA37B007DD06E /* HiddenModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE4329FCA37B007DD06E /* HiddenModifier.swift */; };
+		364ADE4829FCA37B007DD06E /* iOS16ScrollContentBackgroundModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE4429FCA37B007DD06E /* iOS16ScrollContentBackgroundModifier.swift */; };
+		364ADE4929FCA37B007DD06E /* PloblemBottomButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE4529FCA37B007DD06E /* PloblemBottomButtonModifier.swift */; };
+		364ADE4D29FCA3B1007DD06E /* Font-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE4B29FCA3B1007DD06E /* Font-Extension.swift */; };
+		364ADE4E29FCA3B1007DD06E /* View-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE4C29FCA3B1007DD06E /* View-Extension.swift */; };
+		364ADE5129FCA3C4007DD06E /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE4F29FCA3C4007DD06E /* Settings.swift */; };
+		364ADE5229FCA3C4007DD06E /* ZundamonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE5029FCA3C4007DD06E /* ZundamonManager.swift */; };
+		364ADE5429FCA3D8007DD06E /* RepositoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE5329FCA3D8007DD06E /* RepositoryManager.swift */; };
+		364ADE5929FCA3FC007DD06E /* BaseRealmDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE5729FCA3FC007DD06E /* BaseRealmDao.swift */; };
+		364ADE5A29FCA3FC007DD06E /* HistoryRealmInfoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE5829FCA3FC007DD06E /* HistoryRealmInfoDao.swift */; };
+		364ADE5F29FCA42E007DD06E /* HistorySQLiteInfoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE5D29FCA42E007DD06E /* HistorySQLiteInfoDao.swift */; };
+		364ADE6029FCA42E007DD06E /* SQLiteHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE5E29FCA42E007DD06E /* SQLiteHelper.swift */; };
+		364ADE6329FCA45E007DD06E /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE6129FCA45E007DD06E /* ServiceManager.swift */; };
+		364ADE6429FCA45E007DD06E /* ServiceAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE6229FCA45E007DD06E /* ServiceAPIClient.swift */; };
+		364ADE6929FCA47F007DD06E /* DateFormatter-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE6529FCA47F007DD06E /* DateFormatter-Extension.swift */; };
+		364ADE6A29FCA47F007DD06E /* String-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE6629FCA47F007DD06E /* String-Extension.swift */; };
+		364ADE6B29FCA47F007DD06E /* Date-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE6729FCA47F007DD06E /* Date-Extension.swift */; };
+		364ADE6C29FCA47F007DD06E /* UserDefault-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE6829FCA47F007DD06E /* UserDefault-Extension.swift */; };
+		364ADE7029FCA6A8007DD06E /* RepositoryHistoryInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE6D29FCA6A8007DD06E /* RepositoryHistoryInfoModel.swift */; };
+		364ADE7129FCA6A8007DD06E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE6E29FCA6A8007DD06E /* Player.swift */; };
+		364ADE7229FCA6A8007DD06E /* SeviceDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE6F29FCA6A8007DD06E /* SeviceDataRepository.swift */; };
+		364ADE7529FCA6B8007DD06E /* QuizData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE7429FCA6B8007DD06E /* QuizData.swift */; };
+		364ADE7A29FCA6C5007DD06E /* QuizBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE7729FCA6C4007DD06E /* QuizBrain.swift */; };
+		364ADE7B29FCA6C5007DD06E /* GenreBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE7829FCA6C4007DD06E /* GenreBrain.swift */; };
+		364ADE7C29FCA6C5007DD06E /* PlayerBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE7929FCA6C5007DD06E /* PlayerBrain.swift */; };
+		364ADE7F29FCA6DF007DD06E /* HistoryInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE7E29FCA6DF007DD06E /* HistoryInfoModel.swift */; };
+		364ADE8429FCA706007DD06E /* HistoryInfoRealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE8229FCA706007DD06E /* HistoryInfoRealmModel.swift */; };
+		364ADE8529FCA706007DD06E /* BaseRealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE8329FCA706007DD06E /* BaseRealmModel.swift */; };
+		364ADE8729FCA70E007DD06E /* HistoryInfoTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE8629FCA70E007DD06E /* HistoryInfoTable.swift */; };
+		364ADE8D29FCA7EB007DD06E /* MockRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE8A29FCA7EB007DD06E /* MockRepository.swift */; };
+		364ADE8E29FCA7EB007DD06E /* Problem+mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE8B29FCA7EB007DD06E /* Problem+mock.swift */; };
+		364ADE8F29FCA7EB007DD06E /* HistoryInfoModel+mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE8C29FCA7EB007DD06E /* HistoryInfoModel+mock.swift */; };
+		364ADE9529FCA7FA007DD06E /* QuizData+mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE9029FCA7FA007DD06E /* QuizData+mock.swift */; };
+		364ADE9629FCA7FA007DD06E /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE9129FCA7FA007DD06E /* MockService.swift */; };
+		364ADE9729FCA7FA007DD06E /* Answers+mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE9229FCA7FA007DD06E /* Answers+mock.swift */; };
+		364ADE9829FCA7FA007DD06E /* CorrectAnswers+mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE9329FCA7FA007DD06E /* CorrectAnswers+mock.swift */; };
+		364ADE9929FCA7FA007DD06E /* DummyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364ADE9429FCA7FA007DD06E /* DummyError.swift */; };
 		434DC58F6D163799A114E120 /* Pods_QuizProjectInSwiftUI_QuizProjectInSwiftUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E9D32B404F9ADD2963EFCA /* Pods_QuizProjectInSwiftUI_QuizProjectInSwiftUIUITests.framework */; };
 		6117A63E69AA490AC388DC1F /* Pods_QuizProjectInSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE6CFD9394ACF554F87DA11 /* Pods_QuizProjectInSwiftUI.framework */; };
 		C26159CB85E8F27243CB9B28 /* Pods_QuizProjectInSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4388483B61CDE242A4E67865 /* Pods_QuizProjectInSwiftUITests.framework */; };
@@ -58,7 +116,6 @@
 /* Begin PBXFileReference section */
 		364ADD9E29F89A30007DD06E /* QuizProjectInSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizProjectInSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		364ADDA129F89A30007DD06E /* QuizProjectInSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizProjectInSwiftUIApp.swift; sourceTree = "<group>"; };
-		364ADDA329F89A30007DD06E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		364ADDA529F89A31007DD06E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		364ADDA829F89A31007DD06E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		364ADDAE29F89A31007DD06E /* QuizProjectInSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizProjectInSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +142,65 @@
 		364ADDF629F8A028007DD06E /* 不正解なのだ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "不正解なのだ.mp3"; sourceTree = "<group>"; };
 		364ADDF729F8A028007DD06E /* すごいのだ、天才なのだ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "すごいのだ、天才なのだ.mp3"; sourceTree = "<group>"; };
 		364ADE0229F8A12E007DD06E /* 残念BGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "残念BGM.mp3"; sourceTree = "<group>"; };
+		364ADE0429FCA119007DD06E /* ResultDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultDetailView.swift; sourceTree = "<group>"; };
+		364ADE0529FCA119007DD06E /* LazyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LazyView.swift; sourceTree = "<group>"; };
+		364ADE0629FCA11A007DD06E /* ResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		364ADE0729FCA11A007DD06E /* PloblemChallengeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PloblemChallengeView.swift; sourceTree = "<group>"; };
+		364ADE0829FCA11A007DD06E /* TopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		364ADE0929FCA11A007DD06E /* GenreSelectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenreSelectView.swift; sourceTree = "<group>"; };
+		364ADE0A29FCA11A007DD06E /* ResultListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultListView.swift; sourceTree = "<group>"; };
+		364ADE1229FCA256007DD06E /* GenreViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenreViewModel.swift; sourceTree = "<group>"; };
+		364ADE1329FCA256007DD06E /* ProblemChallengeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProblemChallengeViewModel.swift; sourceTree = "<group>"; };
+		364ADE1429FCA256007DD06E /* AnimationImageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationImageViewModel.swift; sourceTree = "<group>"; };
+		364ADE1529FCA257007DD06E /* ResultListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultListViewModel.swift; sourceTree = "<group>"; };
+		364ADE1629FCA257007DD06E /* ResultDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultDetailViewModel.swift; sourceTree = "<group>"; };
+		364ADE1729FCA257007DD06E /* TopViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopViewModel.swift; sourceTree = "<group>"; };
+		364ADE1829FCA257007DD06E /* ProblemViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProblemViewModel.swift; sourceTree = "<group>"; };
+		364ADE1929FCA257007DD06E /* HistoryInfoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryInfoViewModel.swift; sourceTree = "<group>"; };
+		364ADE1A29FCA257007DD06E /* ResultViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewModel.swift; sourceTree = "<group>"; };
+		364ADE3629FCA32F007DD06E /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		364ADE3729FCA32F007DD06E /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		364ADE3B29FCA34B007DD06E /* PKHUDView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKHUDView.swift; sourceTree = "<group>"; };
+		364ADE3C29FCA34B007DD06E /* PKHUDViewModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKHUDViewModifier.swift; sourceTree = "<group>"; };
+		364ADE3D29FCA34B007DD06E /* PKHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKHUD.swift; sourceTree = "<group>"; };
+		364ADE4229FCA37B007DD06E /* VisibleModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisibleModifier.swift; sourceTree = "<group>"; };
+		364ADE4329FCA37B007DD06E /* HiddenModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HiddenModifier.swift; sourceTree = "<group>"; };
+		364ADE4429FCA37B007DD06E /* iOS16ScrollContentBackgroundModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOS16ScrollContentBackgroundModifier.swift; sourceTree = "<group>"; };
+		364ADE4529FCA37B007DD06E /* PloblemBottomButtonModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PloblemBottomButtonModifier.swift; sourceTree = "<group>"; };
+		364ADE4B29FCA3B1007DD06E /* Font-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Font-Extension.swift"; sourceTree = "<group>"; };
+		364ADE4C29FCA3B1007DD06E /* View-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View-Extension.swift"; sourceTree = "<group>"; };
+		364ADE4F29FCA3C4007DD06E /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		364ADE5029FCA3C4007DD06E /* ZundamonManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZundamonManager.swift; sourceTree = "<group>"; };
+		364ADE5329FCA3D8007DD06E /* RepositoryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryManager.swift; sourceTree = "<group>"; };
+		364ADE5729FCA3FC007DD06E /* BaseRealmDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRealmDao.swift; sourceTree = "<group>"; };
+		364ADE5829FCA3FC007DD06E /* HistoryRealmInfoDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryRealmInfoDao.swift; sourceTree = "<group>"; };
+		364ADE5D29FCA42E007DD06E /* HistorySQLiteInfoDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistorySQLiteInfoDao.swift; sourceTree = "<group>"; };
+		364ADE5E29FCA42E007DD06E /* SQLiteHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteHelper.swift; sourceTree = "<group>"; };
+		364ADE6129FCA45E007DD06E /* ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		364ADE6229FCA45E007DD06E /* ServiceAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceAPIClient.swift; sourceTree = "<group>"; };
+		364ADE6529FCA47F007DD06E /* DateFormatter-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateFormatter-Extension.swift"; sourceTree = "<group>"; };
+		364ADE6629FCA47F007DD06E /* String-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String-Extension.swift"; sourceTree = "<group>"; };
+		364ADE6729FCA47F007DD06E /* Date-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date-Extension.swift"; sourceTree = "<group>"; };
+		364ADE6829FCA47F007DD06E /* UserDefault-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefault-Extension.swift"; sourceTree = "<group>"; };
+		364ADE6D29FCA6A8007DD06E /* RepositoryHistoryInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryHistoryInfoModel.swift; sourceTree = "<group>"; };
+		364ADE6E29FCA6A8007DD06E /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		364ADE6F29FCA6A8007DD06E /* SeviceDataRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeviceDataRepository.swift; sourceTree = "<group>"; };
+		364ADE7429FCA6B8007DD06E /* QuizData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizData.swift; sourceTree = "<group>"; };
+		364ADE7729FCA6C4007DD06E /* QuizBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizBrain.swift; sourceTree = "<group>"; };
+		364ADE7829FCA6C4007DD06E /* GenreBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenreBrain.swift; sourceTree = "<group>"; };
+		364ADE7929FCA6C5007DD06E /* PlayerBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerBrain.swift; sourceTree = "<group>"; };
+		364ADE7E29FCA6DF007DD06E /* HistoryInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryInfoModel.swift; sourceTree = "<group>"; };
+		364ADE8229FCA706007DD06E /* HistoryInfoRealmModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryInfoRealmModel.swift; sourceTree = "<group>"; };
+		364ADE8329FCA706007DD06E /* BaseRealmModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRealmModel.swift; sourceTree = "<group>"; };
+		364ADE8629FCA70E007DD06E /* HistoryInfoTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryInfoTable.swift; sourceTree = "<group>"; };
+		364ADE8A29FCA7EB007DD06E /* MockRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockRepository.swift; sourceTree = "<group>"; };
+		364ADE8B29FCA7EB007DD06E /* Problem+mock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Problem+mock.swift"; sourceTree = "<group>"; };
+		364ADE8C29FCA7EB007DD06E /* HistoryInfoModel+mock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HistoryInfoModel+mock.swift"; sourceTree = "<group>"; };
+		364ADE9029FCA7FA007DD06E /* QuizData+mock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "QuizData+mock.swift"; sourceTree = "<group>"; };
+		364ADE9129FCA7FA007DD06E /* MockService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockService.swift; sourceTree = "<group>"; };
+		364ADE9229FCA7FA007DD06E /* Answers+mock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Answers+mock.swift"; sourceTree = "<group>"; };
+		364ADE9329FCA7FA007DD06E /* CorrectAnswers+mock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CorrectAnswers+mock.swift"; sourceTree = "<group>"; };
+		364ADE9429FCA7FA007DD06E /* DummyError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyError.swift; sourceTree = "<group>"; };
 		3D359F8758A709ADE35D5C7D /* Pods-QuizProjectInSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizProjectInSwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-QuizProjectInSwiftUITests/Pods-QuizProjectInSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3F24B1C897E7EB0986DA0673 /* Pods-QuizProjectInSwiftUI-QuizProjectInSwiftUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizProjectInSwiftUI-QuizProjectInSwiftUIUITests.debug.xcconfig"; path = "Target Support Files/Pods-QuizProjectInSwiftUI-QuizProjectInSwiftUIUITests/Pods-QuizProjectInSwiftUI-QuizProjectInSwiftUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		42E9D32B404F9ADD2963EFCA /* Pods_QuizProjectInSwiftUI_QuizProjectInSwiftUIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuizProjectInSwiftUI_QuizProjectInSwiftUIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -178,6 +294,12 @@
 		364ADDA729F89A31007DD06E /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				364ADE8829FCA7C8007DD06E /* Mocks */,
+				364ADE9229FCA7FA007DD06E /* Answers+mock.swift */,
+				364ADE9329FCA7FA007DD06E /* CorrectAnswers+mock.swift */,
+				364ADE9429FCA7FA007DD06E /* DummyError.swift */,
+				364ADE9129FCA7FA007DD06E /* MockService.swift */,
+				364ADE9029FCA7FA007DD06E /* QuizData+mock.swift */,
 				364ADDA829F89A31007DD06E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -211,7 +333,13 @@
 		364ADDD229F89E57007DD06E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				364ADDA329F89A30007DD06E /* ContentView.swift */,
+				364ADE0929FCA11A007DD06E /* GenreSelectView.swift */,
+				364ADE0529FCA119007DD06E /* LazyView.swift */,
+				364ADE0729FCA11A007DD06E /* PloblemChallengeView.swift */,
+				364ADE0429FCA119007DD06E /* ResultDetailView.swift */,
+				364ADE0A29FCA11A007DD06E /* ResultListView.swift */,
+				364ADE0629FCA11A007DD06E /* ResultView.swift */,
+				364ADE0829FCA11A007DD06E /* TopView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -219,6 +347,15 @@
 		364ADDD329F89E67007DD06E /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				364ADE1429FCA256007DD06E /* AnimationImageViewModel.swift */,
+				364ADE1229FCA256007DD06E /* GenreViewModel.swift */,
+				364ADE1929FCA257007DD06E /* HistoryInfoViewModel.swift */,
+				364ADE1329FCA256007DD06E /* ProblemChallengeViewModel.swift */,
+				364ADE1829FCA257007DD06E /* ProblemViewModel.swift */,
+				364ADE1629FCA257007DD06E /* ResultDetailViewModel.swift */,
+				364ADE1529FCA257007DD06E /* ResultListViewModel.swift */,
+				364ADE1A29FCA257007DD06E /* ResultViewModel.swift */,
+				364ADE1729FCA257007DD06E /* TopViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -226,6 +363,12 @@
 		364ADDD429F89E78007DD06E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				364ADE7329FCA6AF007DD06E /* Json */,
+				364ADE7629FCA6BD007DD06E /* Brain */,
+				364ADE7D29FCA6D1007DD06E /* DB */,
+				364ADE6E29FCA6A8007DD06E /* Player.swift */,
+				364ADE6D29FCA6A8007DD06E /* RepositoryHistoryInfoModel.swift */,
+				364ADE6F29FCA6A8007DD06E /* SeviceDataRepository.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -233,6 +376,8 @@
 		364ADDD529F89E96007DD06E /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				364ADE3729FCA32F007DD06E /* Repository.swift */,
+				364ADE3629FCA32F007DD06E /* Service.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -240,6 +385,11 @@
 		364ADDD629F89EBB007DD06E /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				364ADE4F29FCA3C4007DD06E /* Settings.swift */,
+				364ADE5029FCA3C4007DD06E /* ZundamonManager.swift */,
+				364ADE3A29FCA342007DD06E /* PKHUD */,
+				364ADE4129FCA365007DD06E /* Modifier */,
+				364ADE4A29FCA3A2007DD06E /* Extensions */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -257,6 +407,9 @@
 		364ADDD829F89EF2007DD06E /* DataBase */ = {
 			isa = PBXGroup;
 			children = (
+				364ADE5329FCA3D8007DD06E /* RepositoryManager.swift */,
+				364ADE5529FCA3E5007DD06E /* Realm */,
+				364ADE5B29FCA410007DD06E /* SQLite */,
 			);
 			path = DataBase;
 			sourceTree = "<group>";
@@ -264,6 +417,8 @@
 		364ADDD929F89F09007DD06E /* API */ = {
 			isa = PBXGroup;
 			children = (
+				364ADE6229FCA45E007DD06E /* ServiceAPIClient.swift */,
+				364ADE6129FCA45E007DD06E /* ServiceManager.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -271,6 +426,10 @@
 		364ADDDA29F89F14007DD06E /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				364ADE6729FCA47F007DD06E /* Date-Extension.swift */,
+				364ADE6529FCA47F007DD06E /* DateFormatter-Extension.swift */,
+				364ADE6629FCA47F007DD06E /* String-Extension.swift */,
+				364ADE6829FCA47F007DD06E /* UserDefault-Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -314,6 +473,133 @@
 				364ADDF629F8A028007DD06E /* 不正解なのだ.mp3 */,
 			);
 			path = ZundamonVoice;
+			sourceTree = "<group>";
+		};
+		364ADE3A29FCA342007DD06E /* PKHUD */ = {
+			isa = PBXGroup;
+			children = (
+				364ADE3D29FCA34B007DD06E /* PKHUD.swift */,
+				364ADE3B29FCA34B007DD06E /* PKHUDView.swift */,
+				364ADE3C29FCA34B007DD06E /* PKHUDViewModifier.swift */,
+			);
+			path = PKHUD;
+			sourceTree = "<group>";
+		};
+		364ADE4129FCA365007DD06E /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				364ADE4329FCA37B007DD06E /* HiddenModifier.swift */,
+				364ADE4429FCA37B007DD06E /* iOS16ScrollContentBackgroundModifier.swift */,
+				364ADE4529FCA37B007DD06E /* PloblemBottomButtonModifier.swift */,
+				364ADE4229FCA37B007DD06E /* VisibleModifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		364ADE4A29FCA3A2007DD06E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				364ADE4B29FCA3B1007DD06E /* Font-Extension.swift */,
+				364ADE4C29FCA3B1007DD06E /* View-Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		364ADE5529FCA3E5007DD06E /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				364ADE5629FCA3F4007DD06E /* Dao */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		364ADE5629FCA3F4007DD06E /* Dao */ = {
+			isa = PBXGroup;
+			children = (
+				364ADE5729FCA3FC007DD06E /* BaseRealmDao.swift */,
+				364ADE5829FCA3FC007DD06E /* HistoryRealmInfoDao.swift */,
+			);
+			path = Dao;
+			sourceTree = "<group>";
+		};
+		364ADE5B29FCA410007DD06E /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				364ADE5C29FCA427007DD06E /* Dao */,
+			);
+			path = SQLite;
+			sourceTree = "<group>";
+		};
+		364ADE5C29FCA427007DD06E /* Dao */ = {
+			isa = PBXGroup;
+			children = (
+				364ADE5D29FCA42E007DD06E /* HistorySQLiteInfoDao.swift */,
+				364ADE5E29FCA42E007DD06E /* SQLiteHelper.swift */,
+			);
+			path = Dao;
+			sourceTree = "<group>";
+		};
+		364ADE7329FCA6AF007DD06E /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				364ADE7429FCA6B8007DD06E /* QuizData.swift */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		364ADE7629FCA6BD007DD06E /* Brain */ = {
+			isa = PBXGroup;
+			children = (
+				364ADE7829FCA6C4007DD06E /* GenreBrain.swift */,
+				364ADE7929FCA6C5007DD06E /* PlayerBrain.swift */,
+				364ADE7729FCA6C4007DD06E /* QuizBrain.swift */,
+			);
+			path = Brain;
+			sourceTree = "<group>";
+		};
+		364ADE7D29FCA6D1007DD06E /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				364ADE7E29FCA6DF007DD06E /* HistoryInfoModel.swift */,
+				364ADE8029FCA6E7007DD06E /* Realm */,
+				364ADE8129FCA6F5007DD06E /* SQLite */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		364ADE8029FCA6E7007DD06E /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				364ADE8329FCA706007DD06E /* BaseRealmModel.swift */,
+				364ADE8229FCA706007DD06E /* HistoryInfoRealmModel.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		364ADE8129FCA6F5007DD06E /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				364ADE8629FCA70E007DD06E /* HistoryInfoTable.swift */,
+			);
+			path = SQLite;
+			sourceTree = "<group>";
+		};
+		364ADE8829FCA7C8007DD06E /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				364ADE8929FCA7E1007DD06E /* Repository */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		364ADE8929FCA7E1007DD06E /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				364ADE8C29FCA7EB007DD06E /* HistoryInfoModel+mock.swift */,
+				364ADE8A29FCA7EB007DD06E /* MockRepository.swift */,
+				364ADE8B29FCA7EB007DD06E /* Problem+mock.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 		67C713870D74A70B3D8817A3 /* Pods */ = {
@@ -591,8 +877,66 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				364ADDA429F89A30007DD06E /* ContentView.swift in Sources */,
+				364ADE1F29FCA257007DD06E /* ResultDetailViewModel.swift in Sources */,
+				364ADE6A29FCA47F007DD06E /* String-Extension.swift in Sources */,
+				364ADE6929FCA47F007DD06E /* DateFormatter-Extension.swift in Sources */,
+				364ADE2329FCA257007DD06E /* ResultViewModel.swift in Sources */,
+				364ADE7F29FCA6DF007DD06E /* HistoryInfoModel.swift in Sources */,
+				364ADE3829FCA32F007DD06E /* Service.swift in Sources */,
+				364ADE8D29FCA7EB007DD06E /* MockRepository.swift in Sources */,
+				364ADE7A29FCA6C5007DD06E /* QuizBrain.swift in Sources */,
+				364ADE5229FCA3C4007DD06E /* ZundamonManager.swift in Sources */,
+				364ADE0F29FCA11A007DD06E /* TopView.swift in Sources */,
+				364ADE3929FCA32F007DD06E /* Repository.swift in Sources */,
+				364ADE3E29FCA34B007DD06E /* PKHUDView.swift in Sources */,
+				364ADE0C29FCA11A007DD06E /* LazyView.swift in Sources */,
+				364ADE8E29FCA7EB007DD06E /* Problem+mock.swift in Sources */,
+				364ADE4729FCA37B007DD06E /* HiddenModifier.swift in Sources */,
+				364ADE5F29FCA42E007DD06E /* HistorySQLiteInfoDao.swift in Sources */,
+				364ADE1C29FCA257007DD06E /* ProblemChallengeViewModel.swift in Sources */,
+				364ADE6329FCA45E007DD06E /* ServiceManager.swift in Sources */,
+				364ADE8429FCA706007DD06E /* HistoryInfoRealmModel.swift in Sources */,
+				364ADE2029FCA257007DD06E /* TopViewModel.swift in Sources */,
+				364ADE0D29FCA11A007DD06E /* ResultView.swift in Sources */,
+				364ADE5A29FCA3FC007DD06E /* HistoryRealmInfoDao.swift in Sources */,
+				364ADE4629FCA37B007DD06E /* VisibleModifier.swift in Sources */,
+				364ADE1129FCA11A007DD06E /* ResultListView.swift in Sources */,
+				364ADE2129FCA257007DD06E /* ProblemViewModel.swift in Sources */,
+				364ADE8729FCA70E007DD06E /* HistoryInfoTable.swift in Sources */,
+				364ADE1B29FCA257007DD06E /* GenreViewModel.swift in Sources */,
+				364ADE5129FCA3C4007DD06E /* Settings.swift in Sources */,
+				364ADE5929FCA3FC007DD06E /* BaseRealmDao.swift in Sources */,
+				364ADE9629FCA7FA007DD06E /* MockService.swift in Sources */,
+				364ADE1029FCA11A007DD06E /* GenreSelectView.swift in Sources */,
+				364ADE4929FCA37B007DD06E /* PloblemBottomButtonModifier.swift in Sources */,
+				364ADE1E29FCA257007DD06E /* ResultListViewModel.swift in Sources */,
+				364ADE8529FCA706007DD06E /* BaseRealmModel.swift in Sources */,
+				364ADE4029FCA34B007DD06E /* PKHUD.swift in Sources */,
+				364ADE0B29FCA11A007DD06E /* ResultDetailView.swift in Sources */,
+				364ADE0E29FCA11A007DD06E /* PloblemChallengeView.swift in Sources */,
+				364ADE1D29FCA257007DD06E /* AnimationImageViewModel.swift in Sources */,
+				364ADE7029FCA6A8007DD06E /* RepositoryHistoryInfoModel.swift in Sources */,
+				364ADE9529FCA7FA007DD06E /* QuizData+mock.swift in Sources */,
+				364ADE5429FCA3D8007DD06E /* RepositoryManager.swift in Sources */,
+				364ADE4829FCA37B007DD06E /* iOS16ScrollContentBackgroundModifier.swift in Sources */,
+				364ADE4E29FCA3B1007DD06E /* View-Extension.swift in Sources */,
+				364ADE9829FCA7FA007DD06E /* CorrectAnswers+mock.swift in Sources */,
+				364ADE3F29FCA34B007DD06E /* PKHUDViewModifier.swift in Sources */,
+				364ADE6429FCA45E007DD06E /* ServiceAPIClient.swift in Sources */,
+				364ADE7C29FCA6C5007DD06E /* PlayerBrain.swift in Sources */,
+				364ADE6C29FCA47F007DD06E /* UserDefault-Extension.swift in Sources */,
+				364ADE6B29FCA47F007DD06E /* Date-Extension.swift in Sources */,
+				364ADE9929FCA7FA007DD06E /* DummyError.swift in Sources */,
 				364ADDA229F89A30007DD06E /* QuizProjectInSwiftUIApp.swift in Sources */,
+				364ADE4D29FCA3B1007DD06E /* Font-Extension.swift in Sources */,
+				364ADE2229FCA257007DD06E /* HistoryInfoViewModel.swift in Sources */,
+				364ADE7B29FCA6C5007DD06E /* GenreBrain.swift in Sources */,
+				364ADE7129FCA6A8007DD06E /* Player.swift in Sources */,
+				364ADE9729FCA7FA007DD06E /* Answers+mock.swift in Sources */,
+				364ADE7229FCA6A8007DD06E /* SeviceDataRepository.swift in Sources */,
+				364ADE7529FCA6B8007DD06E /* QuizData.swift in Sources */,
+				364ADE8F29FCA7EB007DD06E /* HistoryInfoModel+mock.swift in Sources */,
+				364ADE6029FCA42E007DD06E /* SQLiteHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -679,7 +1023,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -733,7 +1077,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -758,8 +1102,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -767,9 +1111,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yosshi.QuizProjectInSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -788,8 +1135,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -797,9 +1144,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yosshi.QuizProjectInSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
